@@ -17,7 +17,7 @@ class Program
         decimal valorF = valorPresente * (decimal)Math.Pow(baseCalculo, periodoMes);
 
        
-        Console.WriteLine("=== PROBLEMA 1: RENDIMENTO FIXO ===");
+        Console.WriteLine(" PROBLEMA 1: RENDIMENTO FIXO");
         Console.WriteLine($"Valor Presente inicializado: R$ {valorPresente:F2}");
         Console.WriteLine($"Taxa de Juros inicializada: {percentualJuros}% a.m.");
         Console.WriteLine($"Período inicializado: {periodoMes} meses");
